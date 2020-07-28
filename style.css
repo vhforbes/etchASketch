@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: grid;
+    border: solid;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.squareDiv {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    transition-duration: 0.1s;
+    
+}
+
+.btnTop {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btnBot {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 16px;
+
+}
+
+#blackBtn {
+    background-color: black;
+    color: white;
+}
+
+#rainbowBtn {
+    color: white;
+}
+
